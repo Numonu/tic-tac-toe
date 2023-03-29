@@ -1,0 +1,38 @@
+.landing{
+    min-height: 100vh;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+
+    background : linear-gradient(to bottom , var(--gradient-top) ,var(--gradient-bottom));
+}
+.landing_title{
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--font-color);
+}
+.landing_btn{
+    border-radius: 1rem;
+    border: .2rem solid var(--font-color);
+    padding: .5rem 2rem;
+
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--font-color);
+
+    cursor: pointer;
+    background-color: transparent;
+    transition: .2s ease;
+    transition-property: background-color , color , transform;
+}
+.landing_btn:hover{
+    background-color: var(--font-color);
+    color: white;
+}
+.landing_btn:active{
+    transform: scale(0.9);
+}

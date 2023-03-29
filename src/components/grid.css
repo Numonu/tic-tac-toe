@@ -1,0 +1,32 @@
+.grid{
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 1rem;
+}
+@media screen and (min-width : 500px){
+    .grid{
+        width: 80%;
+    }
+}
+@media screen and (min-width : 700px){
+    .grid{
+        width: 60%;
+    }
+}
+@media screen and (min-width : 900px){
+    .grid{
+        width: 40%;
+    }
+}
+@media screen and (min-width : 900px) and (min-height : 900px){
+    .grid{
+        width: 60%;
+    }
+}
+@media screen and (min-width : 1200px){
+    .grid{
+        width: 30%;
+    }
+}

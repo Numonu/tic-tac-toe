@@ -1,0 +1,27 @@
+.slot {
+    aspect-ratio: 1/1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.5rem;
+    color: rgb(160, 160, 160);
+
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    box-shadow:inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+
+    transition: transform .2s ease;
+    cursor: pointer;
+}
+.slot:hover{
+    border: .2rem solid rgb(0, 119, 255);
+    transform: rotateZ(5deg) translateY(-5px);
+}
+.slot:active{
+    transform: scale(0.9);
+}
+
+
